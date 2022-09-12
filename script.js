@@ -11,4 +11,4 @@ const local = repl.start("$");
 local.on("exit",()=>{
     console.log("Sortie de la console !");
     process.exit();
-});
+})
